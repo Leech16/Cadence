@@ -1,2 +1,1 @@
-# Cadence
-Projeto para acompanhamento de estudos, gestão de metas e evolução constante.
+# Cadence é um sistema de gerenciamento e acompanhamento de estudos focado em constância e organização. Projetado para ajudar estudantes a estruturar suas trilhas de aprendizado, registrar horas dedicadas e visualizar o progresso ao longo do tempo de forma simples e objetiva.
