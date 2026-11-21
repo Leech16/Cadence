@@ -1,6 +1,7 @@
 #===============================
 # INTERFACE USUÁRIO 
 #===============================
+from models.study_session import StudySession
 
 def exibir_menu():
     print("="*30)
@@ -23,7 +24,16 @@ def ler_opcao():
 
 def executar_opcao(opcao: int):
     if opcao == 1:
-        print("opção 1 selecionada - registro será implementado futuramente.") 
+        subject = input("Matéria:")
+        topic = input("Tópico estudado:")
+        duration = int(input("Duração em minutos:"))
+        date = input("Data:")
+
+        nova_sessao = StudySession(subject, topic, duration, date)
+        sessions.append(nova_sessao)
+        print("Sessão registrada com sucesso!")
+        nova_sessao.show_details()
+
     elif opcao == 2:
         print("opção 2 selecionada - Consultar histórico será implementado futuramente.")
     elif opcao == 3:
